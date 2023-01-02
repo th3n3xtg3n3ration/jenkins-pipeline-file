@@ -7,6 +7,8 @@ pipeline {
                 sh 'echo using shell within Jenkinsfile'
                 echo 'not using shell in the Jenkinsfile'
                 sh 'echo Integrating Jenkins Pipeline with GitHub Webhook using Jenkinsfile'
+                sh 'python --version'
+                sh 'python pipeline.py'
             }
         }
     }
